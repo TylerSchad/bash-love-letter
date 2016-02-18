@@ -1,0 +1,67 @@
+/* global styles */
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix {
+	display: table;
+	content: " ";
+	clear: both;
+}
+
+.hide {
+	display: none;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.container{
+	max-width:960px;
+	margin:0 auto;
+	background:rgba(211,211,183,0.9);
+	padding:15px;
+}
+
+.center{
+	text-align:center;
+}
+
+a:link,
+a:visited,
+a:active {
+	color:rgba(56,111,104,1);
+	font-size:30px;
+}
+
+a:hover{
+	color:rgba(72,64,59,1);
+}
+
+body {
+	background-image: url(../img/typewriter-bg.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	font-family:'Cutive Mono';
+	font-size:20px;
+}
+
+h1{
+	font-family: 'Marck Script', cursive;
+	color:rgba(56,111,104,1);
+	font-size:70px;
+	text-align:center;
+}
